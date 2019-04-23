@@ -49,19 +49,19 @@ on nvim
 
 call python function and get result
 
-`:echo PyCall('hello')`
+`:echo Py3Call('hello')`
 
 list OK
 
-`:echo PyCall('hello_dir')`
+`:echo Py3Call('hello_dir')`
 
 dictionary OK
 
-`:echo PyCall('hello_dict')['hoge']`
+`:echo Py3Call('hello_dict')['hoge']`
 
 argument OK
 
-`:echo PyCall('hello_arg', 1)`
+`:echo Py3Call('hello_arg', 1)`
 
-`:echo PyCall('hello_arg', "src")`
+`:echo Py3Call('hello_arg', "src")`
 

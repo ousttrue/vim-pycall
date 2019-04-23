@@ -75,7 +75,7 @@ def to_vim(o):
         return value
 _EOF_
 
-function! PyCall(name, ...)
+function! Py3Call(name, ...)
     py3 py_dispatch(vim.eval('a:name'), 'l:ret', vim.eval('a:000'))
     if exists('l:ret')
         return l:ret
