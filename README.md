@@ -13,7 +13,7 @@ repo = 'ousttrue/vim-pycall'
 
 ## example
 
-open 'sample.py'
+open `sample.py` by nvim
 
 ```py
 import vim
@@ -41,8 +41,13 @@ def hello_dir():
 
 def hello_arg(o):
     return type(o)
+```
 
-`py3file %`
+on nvim
+
+`:py3file %`
+
+call python function and get result
 
 `:echo PyCall('hello')`
 
